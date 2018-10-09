@@ -1,0 +1,122 @@
+/* HTML Elements */
+body{
+	background-color: #303030;
+	font-family: "Bebas Kai";
+	color: #D0D0D0;
+}
+h1{
+	font-size: 4vw;
+}
+h2{
+	font-size: 1.75vw;
+}
+h3{
+	font-size: 1.5vw;
+}
+
+/* IDs */
+#Full{
+	width: 100%;
+	height: auto;
+}
+#Banner{
+	position: absolute;
+	background-image: url(Images/Reactor.jpg);
+	width: 100%;
+	height: 35%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 30%;
+}
+#Title{
+	position: absolute;
+	top: 35%;
+	height: 15%;
+	width: 100%;
+}
+#Summary{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 25%;
+}
+#Cleanup{
+	position: absolute;
+	top: 85%;
+	width: 100%;
+	height: 65%;
+	padding-top: 1%;
+	background-color: #505050;
+}
+#cleanupImage{
+	background-image: url(Images/Cleanup.png);
+}
+#Response{
+	position: absolute;
+	top: 170%;
+	width: 100%;
+	height: 120%;
+}
+#responseImage{
+	background-image: url(Images/Response.png);
+}
+#Government{
+	position: absolute;
+	top: 290%;
+	width: 100%;
+	height: 80%;
+	padding-top: 1%;
+	background-color: #505050;
+}
+#governmentImage{
+	background-image: url(Images/Government.png)
+}
+#Aftermath{
+	position: absolute;
+	top: 370%;
+	width: 100%;
+	height: 50%;
+}
+
+/* Classes */
+.horizontalCenter{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: table;
+}
+.verticalCenter{
+    margin: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+	display: table;
+}
+.container{
+	margin: 0em;
+	padding: 0em;
+}
+.image{
+	height: 16em;
+	width: 16em;
+	zoom: 0.5;
+    -moz-transform: scale(0.5);
+	background-color: #FFFFFF;
+	background-size: 200px 200px;
+	border-radius: 128px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid black;
+}
+.text{
+	width: 45%;
+	height: auto;
+}
+
+/* Fonts */
+@font-face {
+	font-family: "Bebas Kai";
+	src: url("Fonts/BebasKai/BebasKai.eot");
+	src: url("Fonts/BebasKai/BebasKai.woff") format("woff"),
+		 url("Fonts/BebasKai/BebasKai.otf") format("opentype");
+}
